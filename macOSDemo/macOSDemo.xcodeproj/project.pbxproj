@@ -15,6 +15,11 @@
 		F7D58D67277CA086001E3FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D58D66277CA086001E3FFF /* ViewController.swift */; };
 		F7D58D69277CA088001E3FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D58D68277CA088001E3FFF /* Assets.xcassets */; };
 		F7D58D6C277CA088001E3FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D58D6A277CA088001E3FFF /* Main.storyboard */; };
+		F7ED6A8C278187ED008A3345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED6A8B278187ED008A3345 /* AppDelegate.swift */; };
+		F7ED6A8E278187ED008A3345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED6A8D278187ED008A3345 /* ViewController.swift */; };
+		F7ED6A90278187EE008A3345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ED6A8F278187EE008A3345 /* Assets.xcassets */; };
+		F7ED6A93278187EE008A3345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ED6A91278187EE008A3345 /* Main.storyboard */; };
+		F7ED6A99278187FE008A3345 /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED6A98278187FE008A3345 /* FlippedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,13 @@
 		F7D58D68277CA088001E3FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D58D6B277CA088001E3FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D58D6D277CA088001E3FFF /* NSWindow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSWindow.entitlements; sourceTree = "<group>"; };
+		F7ED6A89278187ED008A3345 /* FlippedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED6A8B278187ED008A3345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7ED6A8D278187ED008A3345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7ED6A8F278187EE008A3345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ED6A92278187EE008A3345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ED6A94278187EE008A3345 /* FlippedView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlippedView.entitlements; sourceTree = "<group>"; };
+		F7ED6A98278187FE008A3345 /* FlippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7ED6A86278187ED008A3345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				F7D58D4E277B3A59001E3FFF /* macOSDemo */,
 				F7D58D63277CA086001E3FFF /* NSWindow */,
+				F7ED6A8A278187ED008A3345 /* FlippedView */,
 				F7D58D4D277B3A59001E3FFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				F7D58D4C277B3A59001E3FFF /* macOSDemo.app */,
 				F7D58D62277CA086001E3FFF /* NSWindow.app */,
+				F7ED6A89278187ED008A3345 /* FlippedView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +111,19 @@
 				F7D58D6D277CA088001E3FFF /* NSWindow.entitlements */,
 			);
 			path = NSWindow;
+			sourceTree = "<group>";
+		};
+		F7ED6A8A278187ED008A3345 /* FlippedView */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED6A8B278187ED008A3345 /* AppDelegate.swift */,
+				F7ED6A8D278187ED008A3345 /* ViewController.swift */,
+				F7ED6A98278187FE008A3345 /* FlippedView.swift */,
+				F7ED6A8F278187EE008A3345 /* Assets.xcassets */,
+				F7ED6A91278187EE008A3345 /* Main.storyboard */,
+				F7ED6A94278187EE008A3345 /* FlippedView.entitlements */,
+			);
+			path = FlippedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +163,23 @@
 			productReference = F7D58D62277CA086001E3FFF /* NSWindow.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F7ED6A88278187ED008A3345 /* FlippedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ED6A97278187EE008A3345 /* Build configuration list for PBXNativeTarget "FlippedView" */;
+			buildPhases = (
+				F7ED6A85278187ED008A3345 /* Sources */,
+				F7ED6A86278187ED008A3345 /* Frameworks */,
+				F7ED6A87278187ED008A3345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippedView;
+			productName = FlippedView;
+			productReference = F7ED6A89278187ED008A3345 /* FlippedView.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,6 +194,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					F7D58D61277CA086001E3FFF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F7ED6A88278187ED008A3345 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -162,6 +216,7 @@
 			targets = (
 				F7D58D4B277B3A59001E3FFF /* macOSDemo */,
 				F7D58D61277CA086001E3FFF /* NSWindow */,
+				F7ED6A88278187ED008A3345 /* FlippedView */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +237,15 @@
 			files = (
 				F7D58D69277CA088001E3FFF /* Assets.xcassets in Resources */,
 				F7D58D6C277CA088001E3FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED6A87278187ED008A3345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ED6A90278187EE008A3345 /* Assets.xcassets in Resources */,
+				F7ED6A93278187EE008A3345 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +270,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7ED6A85278187ED008A3345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ED6A99278187FE008A3345 /* FlippedView.swift in Sources */,
+				F7ED6A8E278187ED008A3345 /* ViewController.swift in Sources */,
+				F7ED6A8C278187ED008A3345 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -221,6 +295,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7D58D6B277CA088001E3FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ED6A91278187EE008A3345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ED6A92278187EE008A3345 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -449,6 +531,60 @@
 			};
 			name = Release;
 		};
+		F7ED6A95278187EE008A3345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlippedView/FlippedView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.macos.demo.nswindow.FlippedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7ED6A96278187EE008A3345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlippedView/FlippedView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.macos.demo.nswindow.FlippedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,6 +611,15 @@
 			buildConfigurations = (
 				F7D58D6F277CA088001E3FFF /* Debug */,
 				F7D58D70277CA088001E3FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ED6A97278187EE008A3345 /* Build configuration list for PBXNativeTarget "FlippedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ED6A95278187EE008A3345 /* Debug */,
+				F7ED6A96278187EE008A3345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
