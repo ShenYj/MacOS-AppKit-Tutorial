@@ -15,6 +15,17 @@
 		F7D58D67277CA086001E3FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D58D66277CA086001E3FFF /* ViewController.swift */; };
 		F7D58D69277CA088001E3FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D58D68277CA088001E3FFF /* Assets.xcassets */; };
 		F7D58D6C277CA088001E3FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D58D6A277CA088001E3FFF /* Main.storyboard */; };
+		F7DB16D927C76F5200C5B1E0 /* BigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB16D827C76F5200C5B1E0 /* BigView.swift */; };
+		F7DB16E127C7771300C5B1E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB16E027C7771300C5B1E0 /* AppDelegate.swift */; };
+		F7DB16E327C7771300C5B1E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB16E227C7771300C5B1E0 /* ViewController.swift */; };
+		F7DB16E527C7771500C5B1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DB16E427C7771500C5B1E0 /* Assets.xcassets */; };
+		F7DB16E827C7771500C5B1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DB16E627C7771500C5B1E0 /* Main.storyboard */; };
+		F7DB16F427C7B9B100C5B1E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB16F327C7B9B100C5B1E0 /* AppDelegate.swift */; };
+		F7DB16F627C7B9B100C5B1E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB16F527C7B9B100C5B1E0 /* ViewController.swift */; };
+		F7DB16F827C7B9B300C5B1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DB16F727C7B9B300C5B1E0 /* Assets.xcassets */; };
+		F7DB16FB27C7B9B300C5B1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DB16F927C7B9B300C5B1E0 /* Main.storyboard */; };
+		F7DB170127C7C88800C5B1E0 /* NoScrollerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB170027C7C88800C5B1E0 /* NoScrollerScrollView.swift */; };
+		F7DB170327C7C9A200C5B1E0 /* DisableVerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB170227C7C9A200C5B1E0 /* DisableVerticalScrollView.swift */; };
 		F7ED6A8C278187ED008A3345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED6A8B278187ED008A3345 /* AppDelegate.swift */; };
 		F7ED6A8E278187ED008A3345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED6A8D278187ED008A3345 /* ViewController.swift */; };
 		F7ED6A90278187EE008A3345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ED6A8F278187EE008A3345 /* Assets.xcassets */; };
@@ -35,6 +46,21 @@
 		F7D58D68277CA088001E3FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D58D6B277CA088001E3FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D58D6D277CA088001E3FFF /* NSWindow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSWindow.entitlements; sourceTree = "<group>"; };
+		F7DB16D827C76F5200C5B1E0 /* BigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigView.swift; sourceTree = "<group>"; };
+		F7DB16DE27C7771300C5B1E0 /* VisualEffectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualEffectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB16E027C7771300C5B1E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7DB16E227C7771300C5B1E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7DB16E427C7771500C5B1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DB16E727C7771500C5B1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7DB16E927C7771500C5B1E0 /* VisualEffectView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisualEffectView.entitlements; sourceTree = "<group>"; };
+		F7DB16F127C7B9B100C5B1E0 /* ScrolleableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrolleableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB16F327C7B9B100C5B1E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7DB16F527C7B9B100C5B1E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7DB16F727C7B9B300C5B1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DB16FA27C7B9B300C5B1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7DB16FC27C7B9B300C5B1E0 /* ScrolleableView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScrolleableView.entitlements; sourceTree = "<group>"; };
+		F7DB170027C7C88800C5B1E0 /* NoScrollerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoScrollerScrollView.swift; sourceTree = "<group>"; };
+		F7DB170227C7C9A200C5B1E0 /* DisableVerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableVerticalScrollView.swift; sourceTree = "<group>"; };
 		F7ED6A89278187ED008A3345 /* FlippedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ED6A8B278187ED008A3345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7ED6A8D278187ED008A3345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +85,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7DB16DB27C7771300C5B1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB16EE27C7B9B100C5B1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7ED6A86278187ED008A3345 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,6 +115,8 @@
 				F7D58D4E277B3A59001E3FFF /* macOSDemo */,
 				F7D58D63277CA086001E3FFF /* NSWindow */,
 				F7ED6A8A278187ED008A3345 /* FlippedView */,
+				F7DB16DF27C7771300C5B1E0 /* VisualEffectView */,
+				F7DB16F227C7B9B100C5B1E0 /* ScrolleableView */,
 				F7D58D4D277B3A59001E3FFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +127,8 @@
 				F7D58D4C277B3A59001E3FFF /* macOSDemo.app */,
 				F7D58D62277CA086001E3FFF /* NSWindow.app */,
 				F7ED6A89278187ED008A3345 /* FlippedView.app */,
+				F7DB16DE27C7771300C5B1E0 /* VisualEffectView.app */,
+				F7DB16F127C7B9B100C5B1E0 /* ScrolleableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,12 +157,39 @@
 			path = NSWindow;
 			sourceTree = "<group>";
 		};
+		F7DB16DF27C7771300C5B1E0 /* VisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB16E027C7771300C5B1E0 /* AppDelegate.swift */,
+				F7DB16E227C7771300C5B1E0 /* ViewController.swift */,
+				F7DB16E427C7771500C5B1E0 /* Assets.xcassets */,
+				F7DB16E627C7771500C5B1E0 /* Main.storyboard */,
+				F7DB16E927C7771500C5B1E0 /* VisualEffectView.entitlements */,
+			);
+			path = VisualEffectView;
+			sourceTree = "<group>";
+		};
+		F7DB16F227C7B9B100C5B1E0 /* ScrolleableView */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB16F327C7B9B100C5B1E0 /* AppDelegate.swift */,
+				F7DB16F527C7B9B100C5B1E0 /* ViewController.swift */,
+				F7DB170027C7C88800C5B1E0 /* NoScrollerScrollView.swift */,
+				F7DB170227C7C9A200C5B1E0 /* DisableVerticalScrollView.swift */,
+				F7DB16F727C7B9B300C5B1E0 /* Assets.xcassets */,
+				F7DB16F927C7B9B300C5B1E0 /* Main.storyboard */,
+				F7DB16FC27C7B9B300C5B1E0 /* ScrolleableView.entitlements */,
+			);
+			path = ScrolleableView;
+			sourceTree = "<group>";
+		};
 		F7ED6A8A278187ED008A3345 /* FlippedView */ = {
 			isa = PBXGroup;
 			children = (
 				F7ED6A8B278187ED008A3345 /* AppDelegate.swift */,
 				F7ED6A8D278187ED008A3345 /* ViewController.swift */,
 				F7ED6A98278187FE008A3345 /* FlippedView.swift */,
+				F7DB16D827C76F5200C5B1E0 /* BigView.swift */,
 				F7ED6A8F278187EE008A3345 /* Assets.xcassets */,
 				F7ED6A91278187EE008A3345 /* Main.storyboard */,
 				F7ED6A94278187EE008A3345 /* FlippedView.entitlements */,
@@ -163,6 +234,40 @@
 			productReference = F7D58D62277CA086001E3FFF /* NSWindow.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F7DB16DD27C7771300C5B1E0 /* VisualEffectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB16EA27C7771500C5B1E0 /* Build configuration list for PBXNativeTarget "VisualEffectView" */;
+			buildPhases = (
+				F7DB16DA27C7771300C5B1E0 /* Sources */,
+				F7DB16DB27C7771300C5B1E0 /* Frameworks */,
+				F7DB16DC27C7771300C5B1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualEffectView;
+			productName = VisualEffectView;
+			productReference = F7DB16DE27C7771300C5B1E0 /* VisualEffectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7DB16F027C7B9B100C5B1E0 /* ScrolleableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB16FD27C7B9B300C5B1E0 /* Build configuration list for PBXNativeTarget "ScrolleableView" */;
+			buildPhases = (
+				F7DB16ED27C7B9B100C5B1E0 /* Sources */,
+				F7DB16EE27C7B9B100C5B1E0 /* Frameworks */,
+				F7DB16EF27C7B9B100C5B1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrolleableView;
+			productName = ScrolleableView;
+			productReference = F7DB16F127C7B9B100C5B1E0 /* ScrolleableView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F7ED6A88278187ED008A3345 /* FlippedView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7ED6A97278187EE008A3345 /* Build configuration list for PBXNativeTarget "FlippedView" */;
@@ -196,6 +301,12 @@
 					F7D58D61277CA086001E3FFF = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					F7DB16DD27C7771300C5B1E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F7DB16F027C7B9B100C5B1E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					F7ED6A88278187ED008A3345 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -217,6 +328,8 @@
 				F7D58D4B277B3A59001E3FFF /* macOSDemo */,
 				F7D58D61277CA086001E3FFF /* NSWindow */,
 				F7ED6A88278187ED008A3345 /* FlippedView */,
+				F7DB16DD27C7771300C5B1E0 /* VisualEffectView */,
+				F7DB16F027C7B9B100C5B1E0 /* ScrolleableView */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +350,24 @@
 			files = (
 				F7D58D69277CA088001E3FFF /* Assets.xcassets in Resources */,
 				F7D58D6C277CA088001E3FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB16DC27C7771300C5B1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB16E527C7771500C5B1E0 /* Assets.xcassets in Resources */,
+				F7DB16E827C7771500C5B1E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB16EF27C7B9B100C5B1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB16F827C7B9B300C5B1E0 /* Assets.xcassets in Resources */,
+				F7DB16FB27C7B9B300C5B1E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +401,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7DB16DA27C7771300C5B1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB16E327C7771300C5B1E0 /* ViewController.swift in Sources */,
+				F7DB16E127C7771300C5B1E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB16ED27C7B9B100C5B1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB16F627C7B9B100C5B1E0 /* ViewController.swift in Sources */,
+				F7DB16F427C7B9B100C5B1E0 /* AppDelegate.swift in Sources */,
+				F7DB170327C7C9A200C5B1E0 /* DisableVerticalScrollView.swift in Sources */,
+				F7DB170127C7C88800C5B1E0 /* NoScrollerScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7ED6A85278187ED008A3345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7ED6A99278187FE008A3345 /* FlippedView.swift in Sources */,
+				F7DB16D927C76F5200C5B1E0 /* BigView.swift in Sources */,
 				F7ED6A8E278187ED008A3345 /* ViewController.swift in Sources */,
 				F7ED6A8C278187ED008A3345 /* AppDelegate.swift in Sources */,
 			);
@@ -295,6 +447,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7D58D6B277CA088001E3FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7DB16E627C7771500C5B1E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DB16E727C7771500C5B1E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7DB16F927C7B9B300C5B1E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DB16FA27C7B9B300C5B1E0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -531,6 +699,114 @@
 			};
 			name = Release;
 		};
+		F7DB16EB27C7771500C5B1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VisualEffectView/VisualEffectView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.visualeffectview.demo.VisualEffectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7DB16EC27C7771500C5B1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VisualEffectView/VisualEffectView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.visualeffectview.demo.VisualEffectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F7DB16FE27C7B9B300C5B1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScrolleableView/ScrolleableView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.visualeffectview.demo.ScrolleableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7DB16FF27C7B9B300C5B1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScrolleableView/ScrolleableView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.visualeffectview.demo.ScrolleableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F7ED6A95278187EE008A3345 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -611,6 +887,24 @@
 			buildConfigurations = (
 				F7D58D6F277CA088001E3FFF /* Debug */,
 				F7D58D70277CA088001E3FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB16EA27C7771500C5B1E0 /* Build configuration list for PBXNativeTarget "VisualEffectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB16EB27C7771500C5B1E0 /* Debug */,
+				F7DB16EC27C7771500C5B1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB16FD27C7B9B300C5B1E0 /* Build configuration list for PBXNativeTarget "ScrolleableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB16FE27C7B9B300C5B1E0 /* Debug */,
+				F7DB16FF27C7B9B300C5B1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
